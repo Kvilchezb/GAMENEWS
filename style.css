@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo img{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+/*Color de la barra: /NOSOTROS / PRODUCTOS / ETC, AL CLICKEAR SALE EN DORADO*/
+.navbar a:hover {
+    background: #F7C849;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: url(img/Elden-Ring-Live-Wallpaper.gif) no-repeat center;
+    background-size: cover;
+}
+/*AJUSTES DEL TITULO INICIO / PRODUCTOS / ETC*/
+.title {
+    margin: 20px;
+    margin-bottom: 0px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+.title2 {
+    margin: 20px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: left;
+    
+    
+}
+
+.title3 {
+    margin: 10px;
+    margin-bottom: 0px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 20px;
+    
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 150px;
+}
+
+/*Color de los Botonoes SABER MAS / SABER PRECIO*/
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 40px;
+    border: 2px solid #F7C849;
+    color: #fff;
+    text-decoration: none;
+    background: #F7C849;
+}
+
+
+.btn:hover {
+    background: none;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content2 {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white
+}
+
+.sau {
+    margin: 0px;
+    padding: 50px 0;
+    background: #303030;
+}
+/*Cajas*/
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: centers;
+}
+
+.box-container .box {
+    height: 170px;
+    width: 270px;
+    background: #171717;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    margin: 20px;
+}
+
+.box-container .box i {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #F7C849; /*Amarillo*/
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+
+
+
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #F7C849;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.price {
+    background: url(img/Resident_Evil_4_Remake_2.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.about {
+    background: #303030;
+    padding: 50px 0;
+}
+.about2 {
+    background-image: linear-gradient(red,orange);
+    padding: 250px 0;
+}
+.about3 {
+    background-image: linear-gradient(orange,red);
+    padding: 0px 0;
+}
+
+.box-container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+/*CAJA DONDE ESTAN LAS FOTOS DE PERFIL DE CREADORES*/
+.box-container2 .box {
+    width: 250px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    background: #171717;
+    margin: 20px 20px;
+}
+
+.box-container2 .box img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 6px solid #F7C849;
+}
+
+.box-container2 .box h3 {
+    font-size: 20px;
+    color: #F7C849;
+    padding-top: 10px;
+}
+
+.box-container2 .box p {
+
+    font-size: 18px;
+    color: #fff;
+    padding: 0;
+}
+
+.box-container2 .box .stars i {
+    font-size: 15px;
+    color: #F7C849;
+}
+
+.contact {
+    padding: 50px 0;
+    background: #171717;
+}
+
+
+.footer-section{
+    display: flex;
+
+}
+
+.f-enlaces {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+}
+.f-enlaces h1{
+    color: white;
+    font-size: 30px;
+}
+
+.f-enlaces a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    p {
+        padding: 0 50px;
+    }
+    .title{
+        margin-bottom: 0px;
+        font-size: 40px;
+    }
+    .sau {
+        height: 100vh;
+        padding: 50px 0;
+    }
+    .about {
+        height: 100vh;
+        padding: 50px 0;
+    }
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .f-enlaces {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
+html{
+    overflow: scroll;
+}
