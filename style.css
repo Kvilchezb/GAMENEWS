@@ -132,7 +132,6 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: white
 }
 
 .sau {
@@ -302,6 +301,6 @@ p {
         display: none;
     }
 }
-html{
-    overflow: scroll;
-}
+
+
+
