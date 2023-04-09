@@ -9,6 +9,26 @@
 body {
 	font-family: Arial, sans-serif;
 }
+/*CSS PARA LAS PARTICULAS*/
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 40px;
+    border: 2px solid #F77B20;
+    color: #fff;
+    text-decoration: none;
+    background: #F77B20;
+}
+.btn:hover {
+    background: #F7C849;
+}
 
 .head {
     display: flex;
@@ -83,10 +103,13 @@ body {
 }
 
 .news-item h2 {
-	margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+	margin-bottom: 15px;
 }
 
 .news-item p {
+    color: white;
 	text-align: justify;
 }
 
