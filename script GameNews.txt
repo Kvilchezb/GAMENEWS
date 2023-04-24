@@ -1,0 +1,23 @@
+CREATE SCHEMA gamenews;
+/*Se crea un usuario para la base de datos llamado "usuario_prueba" y tiene la contraseña "Usuario_Clave."*/
+create user 'concursante'@'localhost' identified by 'admin';
+/*Se asignan los prvilegios sobr ela base de datos TechShop al usuario creado */
+grant all privileges on curso.* to 'concursante'@'localhost';
+flush privileges;
+
+
+CREATE TABLE gamenews.concursante (
+  id_concursante INT NOT NULL AUTO_INCREMENT,
+  nombre VARCHAR(20) NOT NULL,
+  apellidos VARCHAR(30) NOT NULL,
+  correo VARCHAR(25) NULL,
+  telefono VARCHAR(15) NULL,
+  PRIMARY KEY (`id_concursante`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_eo_0900_ai_ci;
+
+INSERT INTO gamenews.concursante (id_concursante, nombre, apellidos, correo, telefono) VALUES 
+(1,'Juan', 'Castro Mora',    'jcastro@gmail.com',    '4556-8978'),
+(2,'Ana',  'Contreras Mora', 'acontreras@gmail.com', '5456-8789'),
+(3,'Luis', 'Mena Loria',     'lmena@gmail.com',      '7898-8936');
